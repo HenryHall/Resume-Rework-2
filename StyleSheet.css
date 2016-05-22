@@ -1,0 +1,168 @@
+html, body, h1, h2, h3, h4, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Roboto, Times, Serif;
+	background: #d2d2d2 url(Images/background.jpg) repeat top left;
+}
+
+header {
+	text-align: center;
+	margin: auto;
+	transition: transform 2s;
+}
+
+header h1 {
+	color:#990000;
+	font-size:5em;
+}
+
+section h2 {
+	padding-top: 1em;
+}
+
+section h2:first-child {
+	padding-top: 0em;
+}
+
+header figure {
+	padding: 2em;	
+}
+
+header img {
+	border: 3px solid black;
+	border-radius: 50%;
+	vertical-align: middle;
+	width: 300px;
+	height: 340px;
+}
+
+section {
+	background: #d2d2d2 url(Images/background2.jpg) repeat top left;
+	max-height: 60vh;
+	overflow: auto;
+}
+
+section ul {
+	list-style-type: square;
+	margin-left: 1.5vw;
+}
+
+main {
+	display: none;
+	position: absolute;
+	left: 30vw;
+	top: 10vh;
+	margin-right: 8vw;
+	margin-bottom: 4vw;
+}
+
+main section {
+	padding: 1.5vw;
+	box-shadow: -5px 5px 20px #000;
+	border: 2px solid #900;
+	position: relative;
+	z-index: 3;
+}
+
+main p {
+	text-indent: 50px;
+}
+
+nav {
+	text-align: left;
+	font-size: 2em;
+	margin-left: 30px;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 5px;
+	border-radius: 20px 20px 0% 0%;
+	background-color: #904040;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	box-shadow: -1px 0px 10px #000;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 2;
+}
+
+nav ul li:last-child {
+	margin-right: 0px;
+}
+
+nav ul li a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #fff;
+}
+
+main h1 {
+	color: #900;
+	font-size: 3em;
+	text-align: left;
+}
+
+main h2 {
+	font-size: 1.5em;
+	font-style: bold;
+}
+
+main h3 {
+	font-size: .75em;
+	font-style: italic;
+}
+
+main h4 {
+	font-style: bold;
+	padding-top: 1em;
+}
+
+.welcomed {
+	transform: translateX(-35vw) scale(.70);
+}
+
+.email {
+	text-decoration: none;
+}
+
+.currentTab {
+	box-shadow: -5px 0px 10px #000;
+	background-color: #900;
+	margin-right: 0px;
+	font-size: 1.1em;
+	position: relative;
+	/*z-index: 1;*/
+}
+
+.sectionContent {
+	font-size: 1.25em;
+}
+
+#drake {
+	text-align: center;
+	font-size: 1.5em;
+	height: 200px;
+}
+
+#details {
+	font-size: 2em;
+	display: none;
+}
+
+#summaryDiv p {
+	font-size: 2em;
+}
+
+#summaryDiv {
+	display: block;
+}
+
+#experienceDiv, #portfolioDiv, #skillsDiv {
+	display: none;
+}
